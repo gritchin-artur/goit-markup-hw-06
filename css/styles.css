@@ -593,11 +593,11 @@ border: 1px solid var(--modal-imput-color-placeholder);
 transition: border-color var(--transition-duration-and-funk);
 }
 
-.placeholder:focus + .modal-form-input-icon {
+.input-modal-line:focus + .modal-form-input-icon {
   fill: var(--blue-color);
 }
 
-.placeholder:focus {
+.input-modal-line:focus {
 border-color: var(--blue-color);
 }
 
