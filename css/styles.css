@@ -231,7 +231,7 @@ h1 {
 
 .button-order {
   min-width: 130px;
-  padding: 16px 32px;
+  padding: 15px 32px;
   border-radius: 4px;
   border: 1px solid transparent;
   font-family: var(--primary-font);
@@ -470,6 +470,7 @@ h1 {
   width: 165px;
   height: 40px;
   margin-left: 24px;
+  margin-top: 40px;
     padding: 8px 16px 8px 24px;
   font-weight: 500;
     font-size: 16px;
@@ -582,14 +583,13 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   height: 40px;
   border-radius: 4px;
   outline: none;
-
+padding-right: 15px;
 }
 
 .input-modal-line {
-  margin-bottom: 8px;
   padding-left: 42px;
-min-width: 360px;
-border: 1px solid var(--modal-imput-color-placeholder);
+width: 100%;
+border: 1px solid rgba(33, 33, 33, 0.2);
 transition: border-color var(--transition-duration-and-funk);
 }
 
@@ -631,7 +631,7 @@ border-color: var(--blue-color);
 .modal-form-submit {
   min-width: 169px;
     height: 100%;
-    padding: 16px 32px;
+    padding: 15px 32px;
     border-radius: 4px;
     border: 1px solid transparent;
     font-family: var(--primary-font);
@@ -654,7 +654,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
 .modal-imput-text {
   display: block;
-  font-weight: 400;
+  margin-bottom: 4px;
     font-size: 12px;
     line-height: 1.167;
     letter-spacing: 0.04em;
@@ -664,11 +664,15 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 .modal-form-check-desc {
   display: flex;
   align-items: center;
-    font-weight: 400;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.04em;
     color: var(--modal-bord-color);
+}
+
+.modal-form-input {
+  display: block;
+  margin-bottom: 8px;
 }
 
 .contact-form {
@@ -713,7 +717,6 @@ border: 1.25px solid var(--primary-text-color);
 }
 
 .modal-border-link {
-  font-weight: 400;
     font-size: 12px;
     line-height: 1.333;
     letter-spacing: 0.04em;
